@@ -1,4 +1,5 @@
 FROM stenioandrade/keycloak:latest as builder
+EXPOSE 8080/tcp
 
 # Enable health and metrics support
 ENV KC_HEALTH_ENABLED=true
